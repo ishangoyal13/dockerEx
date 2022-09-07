@@ -1,10 +1,11 @@
 package routers
 
 import (
-	"docker/models"
 	"net/http"
 
-	"docker/middleware"
+	"github.com/ishangoyal13/dockerEx/server/models"
+
+	"github.com/ishangoyal13/dockerEx/server/middleware"
 
 	"github.com/gin-gonic/gin"
 )
