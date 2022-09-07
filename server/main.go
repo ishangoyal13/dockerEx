@@ -1,16 +1,11 @@
 package main
 
 import (
-	"database/sql"
 	"fmt"
 
-	"docker/models"
-	"docker/routers"
-
-	_ "github.com/lib/pq"
+	"github.com/ishangoyal13/dockerEx/server/models"
+	"github.com/ishangoyal13/dockerEx/server/routers"
 )
-
-var db *sql.DB
 
 func main() {
 	r := routers.RegisterRoutes()

@@ -1,4 +1,4 @@
-module docker
+module github.com/ishangoyal13/dockerEx
 
 go 1.19
 
