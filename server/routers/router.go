@@ -3,9 +3,9 @@ package routers
 import (
 	"net/http"
 
-	"github.com/ishangoyal13/dockerEx/server/models"
+	"github.com/ishangoyal13/dockerEx/models"
 
-	"github.com/ishangoyal13/dockerEx/server/middleware"
+	"github.com/ishangoyal13/dockerEx/middleware"
 
 	"github.com/gin-gonic/gin"
 )
